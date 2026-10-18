@@ -1,0 +1,159 @@
+.pca-preview {
+	margin: 0 0 1.5rem;
+}
+
+.pca-preview img,
+.pca-preview__image {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.pca-paywall {
+	margin: 1.5rem 0;
+	color: #241f1b;
+}
+
+.pca-paywall__teaser {
+	margin-bottom: 1rem;
+}
+
+.pca-paywall__panel {
+	padding: 1.5rem 1.35rem 1.6rem;
+	background: #fbfaf8;
+	border: 1px solid #e4ddd4;
+	border-radius: 12px;
+	text-align: center;
+}
+
+.pca-paywall__panel p,
+.pca-paywall__kicker,
+.pca-paywall__title,
+.pca-paywall__price,
+.pca-paywall__meta,
+.pca-paywall__message {
+	text-align: center;
+}
+
+.pca-paywall__kicker {
+	margin: 0 0 0.35rem;
+	font-size: 0.75rem;
+	font-weight: 600;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	color: #6d675f;
+}
+
+.pca-paywall__title {
+	margin: 0 0 0.35rem;
+	font-size: 1.35rem;
+	line-height: 1.3;
+}
+
+.pca-paywall__price {
+	margin: 0.2rem 0 0.35rem;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.pca-paywall__meta,
+.pca-paywall__message {
+	color: #3f3a35;
+}
+
+.pca-paywall__message p:last-child {
+	margin-bottom: 0;
+}
+
+.pca-paywall__actions {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.75rem;
+	margin-top: 1.25rem;
+}
+
+.pca-paywall button.pca-button,
+.pca-paywall a.pca-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 3.5rem;
+	padding: 0.95rem 2.4rem;
+	border: 1px solid #3f6c5d;
+	border-radius: 8px;
+	background: #3f6c5d;
+	color: #fff;
+	font-size: 1.15rem;
+	font-weight: 600;
+	line-height: 1.2;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.pca-paywall button.pca-button:hover,
+.pca-paywall button.pca-button:focus,
+.pca-paywall a.pca-button:hover,
+.pca-paywall a.pca-button:focus {
+	background: #345c4f;
+	border-color: #345c4f;
+	color: #fff;
+}
+
+.pca-paywall button.pca-button:focus-visible,
+.pca-paywall a.pca-button:focus-visible {
+	outline: 2px solid #3f6c5d;
+	outline-offset: 2px;
+}
+
+.pca-paywall a.pca-button--ghost {
+	background: transparent;
+	color: #3f6c5d;
+}
+
+.pca-paywall a.pca-button--ghost:hover,
+.pca-paywall a.pca-button--ghost:focus {
+	background: #eef4f1;
+	color: #345c4f;
+}
+
+.pca-button[disabled] {
+	opacity: 0.65;
+	cursor: progress;
+}
+
+.pca-paywall__error {
+	margin: 0.75rem 0 0;
+	color: #8a2b2b;
+	text-align: center;
+}
+
+.pca-paywall__error[hidden] {
+	display: none !important;
+}
+
+.pca-notice,
+.pca-staff-note {
+	margin: 0 0 1rem;
+	padding: 0.75rem 0.9rem;
+	border-radius: 8px;
+	background: #eef6f1;
+	color: #1d3d30;
+}
+
+.pca-notice--error {
+	background: #f8ecec;
+	color: #6d2424;
+}
+
+.pca-notice--pending {
+	background: #f7f3ea;
+	color: #5c4d32;
+}
+
+.pca-staff-note {
+	background: #f4f6f5;
+	border-left: 3px solid #1f4b3a;
+	color: #24312c;
+}
